@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather APP</title>
+</head>
+<body>
+    <nav>
+        <div class="first-section">
+            <div class="container">
+                <h2>Weather App</h2>
+            </div>
+        </div>
+        <div class="last-section">
+            <label for="">
+                <input type="search" placeholder="Search" required>
+                <button><i class='bx bx-search '></i></button>
+            </label>
+        </div>
+    </nav>
+    <hr>
+    <header>
+        <h2 class="city"></h2>
+        <div class="container-main">
+            <div class="container-header">
+                <div class="Temperature-box">
+                    <div class="outer-box1">
+                        <h3>Temperature</h3>
+                    </div>
+                    <div class="inner-box">
+                        <h1></h1>
+                        <p><span id="temp"></span></p>
+                        <p><span id="temp_max"></span></p>
+                        <p><span id="temp_min"></span></p>
+                        <p><span id="pressure"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-header">
+                <div class="Temperature-box">
+                    <div class="outer-box1">
+                        <h3>Humdiity info</h3>
+                    </div>
+                    <div class="inner-box">
+                        <h1 class="humidity-1"></h1>
+                        <p><span id="grnd_level"></span></p>
+                        <p><span id="sea_level"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-header">
+                <div class="Temperature-box">
+                    <div class="outer-box1">
+                        <h3>Wind info</h3>
+                    </div>
+                    <div class="inner-box">
+                        <h1 class="wind"></h1>
+                        <p><span id="sunrise"></span></p>
+                        <p><span id="sunset"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+<script src="script.js"></script>
+
+</html>

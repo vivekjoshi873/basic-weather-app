@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+html,body{
+    font-family: "Roboto", serif;
+    background: linear-gradient(135deg,#cf9aff,#95c0ff);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-weight: 600;
+}
+nav{
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bx-search{
+    font-size: 18px;
+}
+.container h2{
+    font-size: 27px;
+    cursor: pointer;
+}
+.last-section{
+    margin: 15px 20px;
+    
+}
+.last-section input{
+    padding: 8px 20px;
+    border-radius: 9px ;
+    font-size: 16px;
+    border: 1px solid transparent;
+    outline: none; 
+}
+
+.last-section button{
+    padding: 5px 10px;
+    border-radius: 14px;
+    margin-left: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #fff;
+    border: 2px solid transparent;
+    color:rgb(164, 130, 164)
+}
+
+.container{
+    margin: 12px 23px;
+}
+h1{
+    font-weight: 600;
+    font-size: 24px;
+}
+hr{
+    border: 1px solid #eee;
+}
+.container-main{
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-header{
+    margin: 12px 15px;
+    width: 450px;
+    height: 350px;
+    border: 2px solid #dedede;
+    padding: 23px 20px;
+    border-radius: 15px;
+}
+h3{
+    position: relative;
+    top: -8px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+}
+.outer-box1{
+    text-align: center;
+    border-bottom:2px solid #dedede ;
+}
+
+.city{
+    text-align: center;
+    margin-top: 22px;
+}
+.inner-box{
+    text-align: center;
+    margin: 25px 0;
+    
+}
+.inner-box p{
+    line-height: 45px;
+}
+.wind{
+    margin: 9px;
+}
+p{
+    margin-top:15px;
+}
